@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__menu__logo {
+    width: 94px;
+}
+
+.cabecalho__menu__link {
+    color: #1a2c5b99;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.cabecalho__menu__link__botao {
+    color: white;
+    background-color: #0B0B3B;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid #0B0B3B;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.cabecalho__menu__link__botao:hover {
+    color: #0B0B3B;
+    background-color: #1a2c5b99;
+}
+
+.apresentacao {
+    width: 100vw;
+}
+
+.apresentacao__servicos__fundo {
+    background-image: radial-gradient(circle at top left, rgba(40, 40, 40, 0.79) 0%, rgba(40, 40, 40, 0.86) 100%), url(../assets/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.apresentacao__servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 50%;
+    padding: 10%;
+    
+
+}
+
+.apresentacao__servicos__titulo {
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    border-left: 8px solid #0B0B3B;
+    padding: 10px;
+}
+
+.apresentacao__servicos__texto {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.apresentacao__servicos__link {
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #0B0B3B;
+    border: solid 15px #0B0B3B;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    width: 290px;
+}
+
+.apresentacao__card__servicos__fundo {
+    background-image: url();
+}
+
+.apresentacao__card__servicos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 5% 10%;
+}
+
+.apresentacao__card__left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.apresentacao__card__right {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    width: 30%;
+}
+
+
+.apresentacao__servicos__texto__card {
+    color: #3e4e88;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.apresentacao__servicos__titulo__card {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu__cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 2px 16px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 300px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card__imagem {
+    width: 100%;
+}
+
+
+
+.apresentacao__div2 h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.apresentacao__div2 h4 {
+    color: #3e4e88;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.apresentacao__div2 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+img {
+    width: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.solicite__orcamento {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 37px 0;
+    
+}
+
+.solicite__orcamento h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #333;
+}
+
+.solicite__orcamento a{
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0B0B3B;
+    text-decoration: none;
+    border: solid 4px #0B0B3B;
+    letter-spacing: 4px;
+    padding: 12px 30px;
+}
+
+.solicite__orcamento a:hover {
+    background-color: #0B0B3B;
+    color: white;
+}
+
+.sobre__empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: #f7f7f7bd;
+    padding-top: 60px;
+}
+
+.texto__sobre__empresa {
+    display: flex;
+    justify-content: space-around;
+    width: 45.758%;
+    padding-top: 0px;
+    padding-right: 8vw;
+    padding-bottom: 0px;
+    padding-left: 8vw;
+}
+
+.texto__sobre__empresa__1 {
+    margin-right: 8.483%;
+}
+
+.texto__sobre__empresa__2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.projetos__realizados {
+    margin: 50px 0;
+    background-color: red;
+    width: 100%;
+}
+
+.sobre__empresa__titulo p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #666
+}
+
+.sobre__empresa__titulo h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #333;
+}
+
+.texto__sobre__empresa p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #0B0B3B;
+    padding-bottom: 1em;
+}
+
+.botao__sobre__empresa {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0B0B3B;
+    text-decoration: none;
+    border: solid 4px #0B0B3B;
+    letter-spacing: 4px;
+    padding: 12px 30px;
+}
+
+.texto__sobre__empresa__2 a:hover {
+    background-color: #0B0B3B;
+    color: white;
+}
+
