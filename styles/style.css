@@ -33,6 +33,10 @@ body {
     padding: 0 10px;
 }
 
+.cabecalho__menu__link:hover {
+    color: #0B0B3B;
+}
+
 .cabecalho__menu__link__botao {
     color: white;
     background-color: #0B0B3B;
@@ -46,6 +50,7 @@ body {
 .cabecalho__menu__link__botao:hover {
     color: #0B0B3B;
     background-color: #1a2c5b99;
+    border: 3px solid #1a2c5b99;
 }
 
 .apresentacao {
@@ -97,6 +102,11 @@ body {
     display: flex;
     justify-content: center;
     width: 290px;
+}
+
+.apresentacao__servicos__link:hover {
+    background-color: #1a2c5b99;
+    border: solid 15px #1a2c5b99;
 }
 
 .apresentacao__nossas__solucoes {
@@ -253,7 +263,7 @@ body {
 }
 
 .texto__sobre__empresa__2 p{
-    padding-bottom: 15px;
+    padding: 0 40px 15px 0;
 }
 
 
@@ -318,7 +328,7 @@ body {
 
 
 
-.texto__sobre__empresa__2 a:hover {
+.botao__sobre__empresa:hover {
     background-color: #0B0B3B;
     color: white;
 }
@@ -335,6 +345,7 @@ body {
 
     .apresentacao__servicos__link {
         width: 150px;
+        text-align: center;
     }
 
     .nossas__solucoes {
@@ -358,10 +369,6 @@ body {
         gap: 50px;
     }
 
-    .conteudo__texto__sobre__empresa__2 {
-        align-items: center;
-    }
-
     .sobre__empresa__invisivel {
         display: none;
     }
@@ -369,6 +376,6 @@ body {
     .botao__sobre__empresa {
         width: 40%;
         text-align: center;
-}
+    }
 }
 
