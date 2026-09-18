@@ -297,7 +297,7 @@ img {
     color: white;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and (max-width: 620px) {
 
     .cabecalho {
         padding: 10px;
