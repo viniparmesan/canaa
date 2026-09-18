@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    box-sizing: border-box;
+}
+
 
 .cabecalho {
     display: flex;
@@ -45,7 +49,7 @@
 }
 
 .apresentacao {
-    width: 100vw;
+    width: auto;
 }
 
 .apresentacao__servicos__fundo {
@@ -291,5 +295,16 @@ img {
 .texto__sobre__empresa__2 a:hover {
     background-color: #0B0B3B;
     color: white;
+}
+
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 10px;
+    }
+    .cabecalho__menu {
+        flex-direction: column;
+        gap: 5px;
+    }
 }
 
