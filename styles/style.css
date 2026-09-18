@@ -306,5 +306,13 @@ img {
         flex-direction: column;
         gap: 5px;
     }
+
+    .apresentacao__servicos__link {
+        width: 150px;
+    }
+
+    .menu__cards {
+        flex-direction: column;
+    }
 }
 
